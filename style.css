@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+}
+.Container {
+    display:grid;
+    grid-template-columns: auto 300px 500px auto;
+    height: 100%;
+}
+.SideBar {
+    background-color: black;
+}
+
+.Menu {
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 50px 50% 50%;
+}
+
+.LiteraCafe {
+    grid-column: 1 / span 2;
+    background-color: brown;
+}
+
+.Content {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 15% 35% 30% 5% 15%;
+}
+
+.Title {
+    grid-column: 1 / span 2;
+    background-color: #302519;
+}
+
+.Address {
+    background-color: #302519;
+}
+
+.InfoBuild {
+    background-color: gray;
+}
+
+.Description {
+    grid-column: 1 / span 2;
+    background-color: #302519;
+}
+
+.ColorfulBoxes {
+    grid-column: 1 / span 2;
+    background-color: blue;
+}
+
+.Mails {
+    grid-column: 1 / span 2;
+}
