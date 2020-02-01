@@ -20,7 +20,7 @@
         .Menu {
             display: grid;
             grid-template-columns: 150px 150px;
-            grid-template-rows: 50px 300px 300px;
+            grid-template-rows: 50px 50% 50%;
         }
         
         .LiteraCafe {
@@ -28,6 +28,38 @@
             background-color: brown;
         }
 
+        .Content {
+            display: grid;
+            grid-template-columns: 60% 40%;
+            grid-template-rows: 15% 35% 30% 5% 15%;
+        }
+
+        .Title {
+            grid-column: 1 / span 2;
+            background-color: #302519;
+        }
+        
+        .Address {
+            background-color: #302519;
+        }
+
+        .InfoBuild {
+            background-color: gray;
+        }
+
+        .Description {
+            grid-column: 1 / span 2;
+            background-color: #302519;
+        }
+
+        .ColorfulBoxes {
+            grid-column: 1 / span 2;
+            background-color: blue;
+        }
+
+        .Mails {
+            grid-column: 1 / span 2;
+        }
     </style>
 </head>
 <body>
@@ -35,13 +67,18 @@
     <div class="SideBar"></div>
     <div class="Menu">
         <div class="LiteraCafe"></div>
-        <div style="background-color: blue" class="LeftMenuUp"></div>
-        <div style="background-color: green" class="RightMenuUp"></div>
-        <div style="background-color: yellow" class="LeftMenuDown"></div>
-        <div style="background-color: red" class="RightMenuDown"></div>
+        <div class="LeftMenuUp"></div>
+        <div class="RightMenuUp"></div>
+        <div class="LeftMenuDown"></div>
+        <div class="RightMenuDown"></div>
     </div>
     <div class="Content">
-
+        <div class="Title"></div>
+        <div class="Address"></div>
+        <div class="InfoBuild"></div>
+        <div class="Description"></div>
+        <div class="ColorfulBoxes"></div>
+        <div class="Mails"></div>
     </div>
     <div class="SideBar"></div>
 </div>
