@@ -14,7 +14,7 @@ body {
 }
 .Container {
     display:grid;
-    grid-template-columns: auto 300px 500px auto;
+    grid-template-columns: auto 450px 650px auto;
     height: 100%;
 }
 .SideBar {
@@ -23,7 +23,7 @@ body {
 
 .Menu {
     display: grid;
-    grid-template-columns: 150px 150px;
+    grid-template-columns: 40% 60%;
     grid-template-rows: 5% 45% 50%;
 }
 
@@ -35,7 +35,7 @@ body {
 .Content {
     display: grid;
     grid-template-columns: 60% 40%;
-    grid-template-rows: 10% 40% 30% 5% 15%;
+    grid-template-rows: 10% 45% 30% 5% 10%;
 }
 
 .MergedSpans {
@@ -92,4 +92,5 @@ body {
     background-color: white;
     margin-right: var(--box-margin);
     margin-bottom: var(--box-margin);
+    padding-top: 10px;
 }
