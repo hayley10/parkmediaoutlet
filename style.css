@@ -1,6 +1,13 @@
+:root {
+    --red: #a83939;
+    --brown: #302519;
+}
+
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 4px;
 }
 .Container {
     display:grid;
@@ -20,13 +27,13 @@ body {
 
 .LiteraCafe {
     grid-column: 1 / span 2;
-    background-color: #302519;
+    background-color: var(--brown);
 }
 
 .Content {
     display: grid;
     grid-template-columns: 60% 40%;
-    grid-template-rows: 15% 35% 30% 5% 15%;
+    grid-template-rows: 10% 40% 30% 5% 15%;
 }
 
 .MergedSpans {
@@ -34,11 +41,17 @@ body {
 }
 
 .Title {
-    background-color: #302519;
+    color: var(--red);
+    background-color: var(--brown);
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 25px;
 }
 
 .Address {
-    background-color: #302519;
+    color: var(--red);
+    background-color: var(--brown);
+    padding-left: 30px;
 }
 
 .InfoBuild {
@@ -46,7 +59,8 @@ body {
 }
 
 .Description {
-    background-color: #302519;
+    color: white;
+    background-color: var(--brown);
 }
 
 .ColorfulBoxes {
@@ -54,3 +68,7 @@ body {
 }
 
 .Mails {}
+
+.Address p {
+    margin-top: -10px; 
+}
