@@ -253,3 +253,17 @@ body {
 .WizytaDomowa p {
     margin-bottom: -10px;
 }
+
+.LiteraCafe {
+    display:grid;
+}
+
+.FacebookLink {
+    background-color: var(--blue);
+    margin: 10px;
+    color: var(--brown);
+    font-size: 0.75em;
+    padding-top: 2px;
+    text-align: center;
+    font-weight: 600;
+}
