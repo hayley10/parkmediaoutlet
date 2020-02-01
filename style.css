@@ -1,6 +1,7 @@
 :root {
-    --red: #a83939;
-    --brown: #302519;
+    --red: #c80317;
+    --brown: #21180f;
+    --blue: #8fc8e3;
     --content-left-text-padding: 30px;
     --box-margin: 5px;
 }
@@ -24,7 +25,7 @@ body {
 .Menu {
     display: grid;
     grid-template-columns: 40% 60%;
-    grid-template-rows: 5% 45% 50%;
+    grid-template-rows: 5% 55% 40%;
 }
 
 .LiteraCafe {
@@ -62,7 +63,50 @@ body {
 
 .InfoBuild {
     background-color: #525252;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 50% 30% 20%;    
 }
+
+.InfoTopLeft {
+    background-color: white;
+    font-size: 15px;
+    margin-right: var(--box-margin);
+    margin-bottom: var(--box-margin);
+    margin-top: var(--box-margin);
+    box-shadow: 3px 3px 1px #363636;
+}
+
+.InfoTopLeft p {
+    margin-bottom: -5px;
+    padding-left: 10px;
+    letter-spacing: 3px;
+}
+
+.InfoTopRight {
+    background-color: var(--red);
+    grid-column-start: 2;
+    grid-row: 1 / span 2;
+    margin-right: var(--box-margin);
+    margin-bottom: var(--box-margin);
+    margin-top: var(--box-margin);
+    box-shadow: 3px 3px 1px #363636;
+}
+
+.InfoLeftBottom {
+    background-color: var(--blue);
+    grid-row: 2 / span 2;
+    margin-right: var(--box-margin);
+    box-shadow: 3px 3px 1px #363636;
+}
+
+.InfoRightBottom {
+    grid-column-start: 2;
+    background-color: white;
+    margin-right: var(--box-margin);
+    box-shadow: 3px 3px 1px #363636;
+}
+
 
 .Description {
     color: white;
@@ -80,11 +124,11 @@ body {
 }
 
 .ColorfulBoxes {
-    background-color: blue;
     margin-right: var(--box-margin);
     margin-bottom: var(--box-margin);
     display: grid;
     grid-template-columns: 30% 50% 20%;
+    box-shadow: 3px 3px 1px #363636;
 }
 
 .Mails {
@@ -93,4 +137,14 @@ body {
     margin-right: var(--box-margin);
     margin-bottom: var(--box-margin);
     padding-top: 10px;
+    box-shadow: 3px 3px 1px #363636;
 }
+
+.LeftMenuDown {
+    background-color: var(--brown);
+    font-size: 20px;
+    color: white;
+    padding-left: 15px;
+    font-weight: 400;
+}
+
