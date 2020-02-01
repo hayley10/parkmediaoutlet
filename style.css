@@ -1,9 +1,12 @@
 :root {
     --red: #a83939;
     --brown: #302519;
+    --content-left-text-padding: 30px;
+    --box-margin: 5px;
 }
 
 body {
+    background-color: #525252;
     margin: 0;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 700;
@@ -22,7 +25,6 @@ body {
     display: grid;
     grid-template-columns: 150px 150px;
     grid-template-rows: 5% 45% 50%;
-    background-color: #525252;
 }
 
 .LiteraCafe {
@@ -44,14 +46,18 @@ body {
     color: var(--red);
     background-color: var(--brown);
     padding-top: 30px;
-    padding-left: 30px;
+    padding-left: var(--content-left-text-padding);
     font-size: 25px;
 }
 
 .Address {
     color: var(--red);
     background-color: var(--brown);
-    padding-left: 30px;
+    padding-left: var(--content-left-text-padding);
+}
+
+.Address p {
+    margin-top: -10px; 
 }
 
 .InfoBuild {
@@ -61,14 +67,27 @@ body {
 .Description {
     color: white;
     background-color: var(--brown);
+    padding-left: var(--content-left-text-padding);
+    margin-right: var(--box-margin);
+}
+
+.Description p {
+    font-size: 30px;
+    margin-bottom: -25px;
+    font-weight: 600;
+    letter-spacing: 9px;
+    margin-right: var(--box-margin);
 }
 
 .ColorfulBoxes {
     background-color: blue;
+    margin-right: var(--box-margin);
+    margin-bottom: var(--box-margin);
 }
 
-.Mails {}
-
-.Address p {
-    margin-top: -10px; 
+.Mails {
+    padding-left: var(--content-left-text-padding);   
+    background-color: white;
+    margin-right: var(--box-margin);
+    margin-bottom: var(--box-margin);
 }
