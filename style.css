@@ -148,3 +148,36 @@ body {
     font-weight: 400;
 }
 
+.LeftMenuUp {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 14% 14% 14% 14% 14% 15%;
+}
+
+.ListaKontAllegro {
+    background-color: white;
+}
+
+.AllegroLiterowy {
+    background-color: var(--brown);
+}
+
+.AllegroBookowy {
+    background-color: red;
+}
+
+.AllegroLitera {
+    background-color: blue;
+}
+
+.AllegroOlimpia {
+    background-color: aqua;
+}
+
+.AllegroArtBooks {
+    background-color: yellow;
+}
+
+.BlueBox {
+    background-color: blueviolet;
+}
