@@ -171,38 +171,38 @@ body {
 }
 
 .AllegroLiterowy {
-    background-color: var(--brown);
+    background-color: var(--red);
     margin-right: var(--box-margin);
     box-shadow: 3px 3px 1px #363636;
 }
 
 .AllegroBookowy {
-    background-color: red;
+    background-color: var(--red);
     margin-right: var(--box-margin);
     box-shadow: 3px 3px 1px #363636;
 }
 
 .AllegroLitera {
-    background-color: blue;
+    background-color: var(--red);
     margin-right: var(--box-margin);
     box-shadow: 3px 3px 1px #363636;
 }
 
 .AllegroOlimpia {
-    background-color: aqua;
+    background-color: var(--red);
     margin-right: var(--box-margin);
     box-shadow: 3px 3px 1px #363636;
 }
 
 .AllegroArtBooks {
-    background-color: yellow;
+    background-color: var(--red);
     margin-right: var(--box-margin);
     margin-bottom: var(--box-margin);
     box-shadow: 3px 3px 1px #363636;
 }
 
 .BlueBox {
-    background-color: blueviolet;
+    background-color: white;
     margin-right: var(--box-margin);
     margin-bottom: var(--box-margin);
     box-shadow: 3px 3px 1px #363636;
@@ -226,7 +226,7 @@ body {
 }
 
 .AdresStacjonarny {
-    background-color: blue;
+    background-color: white;
     padding-left: 15px;
     margin-right: var(--box-margin);
     margin-bottom: var(--box-margin);
@@ -234,7 +234,7 @@ body {
 }
 
 .Godziny {
-    background-color: yellow;
+    background-color: white;
     padding-left: 15px;
     margin-right: var(--box-margin);
     margin-bottom: var(--box-margin);
