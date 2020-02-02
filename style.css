@@ -131,6 +131,23 @@ body {
     box-shadow: 3px 3px 1px #363636;
 }
 
+.ColorfulBox1 {
+    background-color: #f6d117;
+    margin-right: 5px;
+    box-shadow: 3px 3px 1px #363636;
+}
+
+.ColorfulBox2 {
+    background-color: #0d85bd;
+    margin-right: 5px;
+    box-shadow: 3px 3px 1px #363636;
+}
+
+.ColorfulBox3 {
+    background-color: white;
+    box-shadow: 3px 3px 1px #363636;
+}
+
 .Mails {
     padding-left: var(--content-left-text-padding);   
     background-color: white;
@@ -171,7 +188,7 @@ body {
 }
 
 .AllegroLiterowy {
-    background-color: var(--red);
+    background-color: #ce2a29;
     margin-right: var(--box-margin);
     box-shadow: 3px 3px 1px #363636;
     display: grid;
@@ -186,7 +203,7 @@ body {
 }
 
 .AllegroBookowy {
-    background-color: var(--red);
+    background-color: #ce2a29;
     margin-right: var(--box-margin);
     box-shadow: 3px 3px 1px #363636;
     display: grid;
@@ -200,7 +217,7 @@ body {
     padding-left: 10px;
 }
 .AllegroLitera {
-    background-color: var(--red);
+    background-color: #ce2a29;
     margin-right: var(--box-margin);
     box-shadow: 3px 3px 1px #363636;
     display: grid;
@@ -215,7 +232,7 @@ body {
 }
 
 .AllegroOlimpia {
-    background-color: var(--red);
+    background-color: #ce2a29;
     margin-right: var(--box-margin);
     box-shadow: 3px 3px 1px #363636;
     display: grid;
@@ -231,7 +248,7 @@ body {
 }
 
 .AllegroArtBooks {
-    background-color: var(--red);
+    background-color: #ce2a29;
     margin-right: var(--box-margin);
     margin-bottom: var(--box-margin);
     box-shadow: 3px 3px 1px #363636;
