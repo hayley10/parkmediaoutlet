@@ -174,24 +174,47 @@ body {
     background-color: var(--red);
     margin-right: var(--box-margin);
     box-shadow: 3px 3px 1px #363636;
+    display: grid;
+}
+
+.InsideAllegroLiterowy {
+    background-color: var(--brown);
+    margin: 10px;
 }
 
 .AllegroBookowy {
     background-color: var(--red);
     margin-right: var(--box-margin);
     box-shadow: 3px 3px 1px #363636;
+    display: grid;
 }
 
+.InsideAllegroBookowy {
+    background-color: var(--brown);
+    margin: 10px;
+}
 .AllegroLitera {
     background-color: var(--red);
     margin-right: var(--box-margin);
     box-shadow: 3px 3px 1px #363636;
+    display: grid;
+}
+
+.InsideAllegroLitera {
+    background-color: var(--brown);
+    margin: 10px;
 }
 
 .AllegroOlimpia {
     background-color: var(--red);
     margin-right: var(--box-margin);
     box-shadow: 3px 3px 1px #363636;
+    display: grid;
+}
+
+.InsideAllegroOlimpia {
+    background-color: var(--brown);
+    margin: 10px;
 }
 
 .AllegroArtBooks {
@@ -199,6 +222,12 @@ body {
     margin-right: var(--box-margin);
     margin-bottom: var(--box-margin);
     box-shadow: 3px 3px 1px #363636;
+    display: grid;
+}
+
+.InsideAllegroArtBooks {
+    background-color: var(--brown);
+    margin: 10px;
 }
 
 .BlueBox {
@@ -206,6 +235,12 @@ body {
     margin-right: var(--box-margin);
     margin-bottom: var(--box-margin);
     box-shadow: 3px 3px 1px #363636;
+    display: grid;
+}
+
+.InsideBlueBox {
+    background-color: var(--blue);
+    margin: 10px;
 }
 
 .RightMenuUp {
