@@ -13,6 +13,13 @@ body {
     font-weight: 700;
     letter-spacing: 4px;
 }
+
+img {
+    max-height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .Container {
     display:grid;
     grid-template-columns: auto 450px 650px auto;
@@ -180,11 +187,8 @@ body {
     margin-right: var(--box-margin);
     margin-bottom: var(--box-margin);
     box-shadow: 3px 3px 1px #363636;
-}
-
-.ListaKontAllegro p {
-    margin-top: -5px;
-    
+    line-height: 0.10em;
+    padding-left: 20px;
 }
 
 .AllegroLiterowy {
@@ -299,6 +303,7 @@ body {
     margin-right: var(--box-margin);
     margin-bottom: var(--box-margin);
     box-shadow: 3px 3px 1px #363636;
+    line-height: 0.25em;
 }
 
 .Godziny {
@@ -307,6 +312,7 @@ body {
     margin-right: var(--box-margin);
     margin-bottom: var(--box-margin);
     box-shadow: 3px 3px 1px #363636;
+    line-height: 0.75em;
 }
 
 .WizytaDomowa {
