@@ -180,6 +180,9 @@ body {
 .InsideAllegroLiterowy {
     background-color: var(--brown);
     margin: 10px;
+    color: white;
+    font-weight: 400;
+    padding-left: 10px;
 }
 
 .AllegroBookowy {
@@ -192,6 +195,9 @@ body {
 .InsideAllegroBookowy {
     background-color: var(--brown);
     margin: 10px;
+    color: white;
+    font-weight: 400;
+    padding-left: 10px;
 }
 .AllegroLitera {
     background-color: var(--red);
@@ -203,6 +209,9 @@ body {
 .InsideAllegroLitera {
     background-color: var(--brown);
     margin: 10px;
+    color:white;
+    font-weight: 400;
+    padding-left: 10px;
 }
 
 .AllegroOlimpia {
@@ -215,6 +224,10 @@ body {
 .InsideAllegroOlimpia {
     background-color: var(--brown);
     margin: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 1em;
+    padding-left: 10px;
 }
 
 .AllegroArtBooks {
@@ -228,6 +241,9 @@ body {
 .InsideAllegroArtBooks {
     background-color: var(--brown);
     margin: 10px;
+    color: white;
+    font-weight: 400;
+    padding-left: 10px;
 }
 
 .BlueBox {
