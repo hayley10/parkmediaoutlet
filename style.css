@@ -20,6 +20,36 @@ img {
     margin: auto;
     padding-top: 15px;
 }
+
+a:link {
+    color: var(--brown);
+    text-decoration:none;
+}
+
+a:hover {
+    color: var(--red);
+}
+
+a:visited {
+    color: var(--brown);
+}
+
+.AllegroAncors > a:visited {
+    color:white;
+}
+
+.AllegroAncors > a:link {
+    color:white;
+}
+
+.AllegroAncors > a:hover {
+    color: var(--red);
+}
+
+.FacebookLink > a:hover {
+    color: var(--red);
+}
+
 .Container {
     display:grid;
     grid-template-columns: auto 450px 650px auto;
