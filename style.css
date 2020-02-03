@@ -17,8 +17,8 @@ body {
 img {
     max-height: 200px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    padding-top: 15px;
 }
 .Container {
     display:grid;
@@ -160,7 +160,7 @@ img {
     background-color: white;
     margin-right: var(--box-margin);
     margin-bottom: var(--box-margin);
-    padding-top: 10px;
+    padding-top: 15px;
     box-shadow: 3px 3px 1px #363636;
 }
 
@@ -316,7 +316,8 @@ img {
     margin-right: var(--box-margin);
     margin-bottom: var(--box-margin);
     box-shadow: 3px 3px 1px #363636;
-    line-height: 0.75em;
+    line-height: 0.3em;
+    padding-top: 7px;
 }
 
 .HouseVisit {
@@ -326,6 +327,7 @@ img {
     margin-right: var(--box-margin);
     margin-bottom: var(--box-margin);
     box-shadow: 3px 3px 1px #363636;
+    line-height: 0.95em;
 }
 
 .HouseVisit p {
