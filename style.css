@@ -12,13 +12,14 @@ body {
     font-family: 'Fira Sans', sans-serif;
     font-weight: 700;
     letter-spacing: 4px;
+    height: 100%;
 }
 
 img {
     max-height: 200px;
     display: block;
     margin: auto;
-    padding-top: 15px;
+    padding-top: 12px;
 }
 
 a:link {
@@ -52,7 +53,7 @@ a:visited {
 
 .Container {
     display:grid;
-    grid-template-columns: auto 450px 650px auto;
+    grid-template-columns: auto 22% 42% auto;
     height: 100%;
 }
 .SideBar {
@@ -72,7 +73,7 @@ a:visited {
 
 .Content {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 55% 45%;
     grid-template-rows: 10% 40% 35% 5% 10%;
 }
 
@@ -83,7 +84,7 @@ a:visited {
 .Title {
     color: var(--red);
     background-color: var(--brown);
-    padding-top: 30px;
+    padding-top: 25px;
     padding-left: var(--content-left-text-padding);
     font-size: 35px;
 }
@@ -92,6 +93,7 @@ a:visited {
     color: var(--red);
     background-color: var(--brown);
     padding-left: var(--content-left-text-padding);
+    padding-top: -10px;
 }
 
 .Address p {
@@ -103,7 +105,8 @@ a:visited {
     background-color: #525252;
     display: grid;
     grid-template-columns: 60% 40%;
-    grid-template-rows: 50% 30% 20%;    
+    grid-template-rows: 50% 30% 20%;
+    margin-right: 15px;    
 }
 
 .InfoTopLeft {
@@ -125,9 +128,9 @@ a:visited {
     background-color: var(--red);
     grid-column-start: 2;
     grid-row: 1 / span 2;
-    margin-right: var(--box-margin);
     margin-bottom: var(--box-margin);
     margin-top: var(--box-margin);
+    margin-right: 2px;
     box-shadow: 3px 3px 1px #363636;
 }
 
@@ -141,7 +144,7 @@ a:visited {
 .InfoRightBottom {
     grid-column-start: 2;
     background-color: white;
-    margin-right: var(--box-margin);
+    margin-right: 2px;
     box-shadow: 3px 3px 1px #363636;
 }
 
@@ -152,6 +155,7 @@ a:visited {
     padding-left: var(--content-left-text-padding);
     margin-right: var(--box-margin);
     padding-bottom: 70px;
+    margin-right: 15px;
 }
 
 .Description p {
@@ -163,7 +167,7 @@ a:visited {
 }
 
 .ColorfulBoxes {
-    margin-right: var(--box-margin);
+    margin-right: 15px;
     margin-bottom: var(--box-margin);
     display: grid;
     grid-template-columns: 30% 50% 20%;
@@ -190,15 +194,15 @@ a:visited {
 .Mails {
     padding-left: var(--content-left-text-padding);   
     background-color: white;
-    margin-right: var(--box-margin);
+    margin-right: 15px;
     margin-bottom: var(--box-margin);
-    padding-top: 15px;
+    padding-top: 17px;
     box-shadow: 3px 3px 1px #363636;
 }
 
 .LeftMenuDown {
     background-color: var(--brown);
-    font-size: 20px;
+    font-size: 15px;
     color: white;
     padding-left: 15px;
     font-weight: 400;
