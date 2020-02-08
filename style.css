@@ -161,9 +161,9 @@ a:visited {
 
 .Description p {
     font-size: 2.5vw;
-    margin-bottom: -35px;
+    margin-bottom: -2.2vw;
     font-weight: 600;
-    letter-spacing: 10px;
+    letter-spacing: 0.75vw;
     margin-right: var(--box-margin);
 }
 
