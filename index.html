@@ -9,11 +9,14 @@
 
 </head>
 <body>
+
 <div class="Container">
     <div class="SideBar"></div>
     <div class="Menu">
         <div class="LiteraCafe">
-            <div class="FacebookLink"><a href="https://www.facebook.com/litera.cafe">https://www.facebook.com/litera.cafe/</a></div>
+            <div class="FacebookLink">
+                <a href="https://www.facebook.com/litera.cafe">https://www.facebook.com/litera.cafe/</a>
+            </div>
         </div>
         <div class="LeftMenuUp">
             <div class="ListaKontAllegro">
@@ -118,4 +121,64 @@
     <div class="SideBar"></div>
 </div>
 </body>
+
+<script type="text/javascript">
+
+function getHeight() {
+    var height = document.body.clientHeight;
+    var leftWidth = Math.round(0.25 * height * 2);
+    var rightWidth = Math.round(0.40 * height * 2);
+
+    var width = "auto ".concat(leftWidth, "px ", rightWidth, "px auto");
+    document.getElementsByClassName("Container")[0].style.gridTemplateColumns = width;
+
+    var vw = height * 2 / 100;
+    var vh = height / 100;
+
+    var dict = {
+        '--content-left-text-padding': "".concat(Math.round(1.4 * vw), "px"),
+        '--box-margin': "".concat(Math.round(0.3 * vw), "px"),
+        '--s-2-2': "".concat(Math.round(-2.2 * vw), "px"),
+        '--s0-1': "".concat(Math.round(0.1 * vw), "px"),
+        '--s0-2': "".concat(Math.round(0.2 * vw), "px"),
+        '--s0-25': "".concat(Math.round(0.25 * vw), "px"),
+        '--s0-3': "".concat(Math.round(0.3 * vw), "px"),
+        '--s0-4': "".concat(Math.round(0.4 * vw), "px"),
+        '--s0-65': "".concat(Math.round(0.65 * vw), "px"),
+        '--s0-7': "".concat(Math.round(0.7 * vw), "px"),
+        '--s0-75': "".concat(Math.round(0.75 * vw), "px"),
+        '--s1': "".concat(Math.round(1 * vw), "px"),
+        '--s1-2': "".concat(Math.round(1.2 * vw), "px"),
+        '--s2-2': "".concat(Math.round(2.2 * vw), "px"),
+        '--s2-5': "".concat(Math.round(2.5 * vw), "px"),
+        '--s1-4': "".concat(Math.round(1.4 * vw), "px"),
+        '--s1-05': "".concat(Math.round(1.05 * vw), "px"),
+        '--s12-5': "".concat(Math.round(12.5 * vw), "px"),
+        '--v-2': "".concat(Math.round(-2 * vh), "px"),
+        '--v-1-2': "".concat(Math.round(-1.2 * vh), "px"),
+        '--v-0-8': "".concat(Math.round(-0.8 * vh), "px"),
+        '--v-1-5': "".concat(Math.round(-1.5 * vh), "px"),
+        '--v-0-7': "".concat(Math.round(-0.7 * vh), "px"),
+        '--v0-25': "".concat(Math.round(0.25 * vh), "px"),
+        '--v0-4': "".concat(Math.round(0.4 * vh), "px"),
+        '--v0-55': "".concat(Math.round(0.55 * vh), "px"),
+        '--v0-6': "".concat(Math.round(0.6 * vh), "px"),
+        '--v1-6': "".concat(Math.round(1.6 * vh), "px"),
+        '--v1-8': "".concat(Math.round(1.8 * vh), "px"),
+        '--v2': "".concat(Math.round(2 * vh), "px"),
+        '--v3-1': "".concat(Math.round(3.1 * vh), "px"),
+        '--v3-5': "".concat(Math.round(3.5 * vh), "px")
+    };
+
+    for (var key in dict) {
+        if (dict.hasOwnProperty(key)) {           
+            document.documentElement.style.setProperty(key, dict[key]);
+        }
+    }
+}
+window.addEventListener('resize', getHeight);
+window.addEventListener("load", getHeight);
+
+</script>
+
 </html>
