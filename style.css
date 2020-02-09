@@ -2,8 +2,8 @@
     --red: #c80317;
     --brown: #21180f;
     --blue: #8fc8e3;
-    --content-left-text-padding: 30px;
-    --box-margin: 5px;
+    --content-left-text-padding: 1.4vw;
+    --box-margin: 0.3vw;
 }
 
 body {
@@ -11,15 +11,20 @@ body {
     margin: 0;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 700;
-    letter-spacing: 4px;
+    letter-spacing: 0.25vw;
     height: 100%;
+}
+
+br {
+    line-height: 2vh;
 }
 
 img {
     max-height: 12.5vw;
     display: block;
     margin: auto;
-    padding-top: 12px;
+    padding-top: 1.6vh;
+    min-height: 12.5vw;
 }
 
 a:link {
@@ -85,7 +90,7 @@ a:visited {
 .Title {
     color: var(--red);
     background-color: var(--brown);
-    padding-top: 25px;
+    padding-top: 3.5vh;
     padding-left: var(--content-left-text-padding);
     font-size: 2.2vw;
 }
@@ -94,11 +99,11 @@ a:visited {
     color: var(--red);
     background-color: var(--brown);
     padding-left: var(--content-left-text-padding);
-    padding-top: -10px;
+    padding-top: -0.7vh;
 }
 
 .Address p {
-    margin-top: -10px; 
+    margin-top: -1.5vh; 
     font-size: 1.4vw;
 }
 
@@ -107,7 +112,7 @@ a:visited {
     display: grid;
     grid-template-columns: 60% 40%;
     grid-template-rows: 50% 30% 20%;
-    margin-right: 15px;    
+    margin-right: 1vw;    
 }
 
 .InfoTopLeft {
@@ -116,13 +121,13 @@ a:visited {
     margin-right: var(--box-margin);
     margin-bottom: var(--box-margin);
     margin-top: var(--box-margin);
-    box-shadow: 3px 3px 1px #363636;
+    box-shadow: 0.4vh 0.4vw 0.1vw #363636;
 }
 
 .InfoTopLeft p {
-    margin-bottom: -5px;
-    padding-left: 10px;
-    letter-spacing: 3px;
+    margin-bottom: -0.8vh;
+    padding-left: 0.7vw;
+    letter-spacing: 0.2vw;
 }
 
 .InfoTopRight {
@@ -131,22 +136,22 @@ a:visited {
     grid-row: 1 / span 2;
     margin-bottom: var(--box-margin);
     margin-top: var(--box-margin);
-    margin-right: 2px;
-    box-shadow: 3px 3px 1px #363636;
+    margin-right: 0.1vw;
+    box-shadow: 0.4vh 0.4vw 0.1vw #363636;
 }
 
 .InfoLeftBottom {
     background-color: var(--blue);
     grid-row: 2 / span 2;
     margin-right: var(--box-margin);
-    box-shadow: 3px 3px 1px #363636;
+    box-shadow: 0.4vh 0.4vw 0.1vw #363636;
 }
 
 .InfoRightBottom {
     grid-column-start: 2;
     background-color: white;
-    margin-right: 2px;
-    box-shadow: 3px 3px 1px #363636;
+    margin-right: 0.1vw;
+    box-shadow: 0.4vh 0.4vw 0.1vw #363636;
 }
 
 
@@ -154,9 +159,9 @@ a:visited {
     color: white;
     background-color: var(--brown);
     padding-left: var(--content-left-text-padding);
-    padding-bottom: 70px;
-    margin-right: 15px;
-    padding-top: -30px;
+    padding-bottom: 3.1vh;
+    margin-right: 1vw;
+    padding-top: -2vh;
 }
 
 .Description p {
@@ -168,49 +173,50 @@ a:visited {
 }
 
 .ColorfulBoxes {
-    margin-right: 15px;
+    margin-right: 1vw;
     margin-bottom: var(--box-margin);
     display: grid;
     grid-template-columns: 30% 50% 20%;
-    box-shadow: 3px 3px 1px #363636;
+    box-shadow: 0.4vh 0.4vw 0.1vw #363636;
 }
 
 .ColorfulBox1 {
     background-color: #f6d117;
-    margin-right: 5px;
-    box-shadow: 3px 3px 1px #363636;
+    margin-right: 0.3vw;
+    box-shadow: 0.4vh 0.4vw 0.1vw #363636;
 }
 
 .ColorfulBox2 {
     background-color: #0d85bd;
-    margin-right: 5px;
-    box-shadow: 3px 3px 1px #363636;
+    margin-right: 0.3vw;
+    box-shadow: 0.4vh 0.4vw 0.1vw #363636;
 }
 
 .ColorfulBox3 {
     background-color: white;
-    box-shadow: 3px 3px 1px #363636;
+    box-shadow: 0.4vh 0.4vw 0.1vw #363636;
 }
 
 .Mails {
     padding-left: var(--content-left-text-padding);   
     background-color: white;
-    margin-right: 15px;
+    margin-right: 1vw;
     margin-bottom: var(--box-margin);
-    padding-top: 17px;
-    box-shadow: 3px 3px 1px #363636;
+    padding-top: 1.8vh;
+    box-shadow: 0.4vh 0.4vw 0.1vw #363636;
+    font-size: 1.05vw;
 }
 
 .LeftMenuDown {
     background-color: var(--brown);
     font-size: 1.2vw;
     color: white;
-    padding-left: 10px;
+    padding-left: 0.7vw;
     font-weight: 400;
     margin-right: var(--box-margin);
     margin-bottom: var(--box-margin);
     margin-left: var(--box-margin);
-    box-shadow: 3px 3px 1px #363636;
+    box-shadow: 0.4vh 0.4vw 0.1vw #363636;
 }
 
 .LeftMenuUp {
@@ -223,107 +229,112 @@ a:visited {
     background-color: white;
     margin-right: var(--box-margin);
     margin-bottom: var(--box-margin);
-    box-shadow: 3px 3px 1px #363636;
+    box-shadow: 0.4vh 0.4vw 0.1vw #363636;
     line-height: 0.10em;
-    padding-left: 10px;
+    padding-left: 0.7vw;
+    font-size: 1.05vw;
 }
 
 .AllegroLiterowy {
     background-color: #ce2a29;
     margin-right: var(--box-margin);
-    box-shadow: 3px 3px 1px #363636;
+    box-shadow: 0.4vh 0.4vw 0.1vw #363636;
     display: grid;
 }
 
 .InsideAllegroLiterowy {
     background-color: var(--brown);
-    margin: 10px;
-    margin-bottom: 0px;
+    margin: 0.7vw;
+    margin-bottom: 0vh;
     color: white;
     font-weight: 400;
-    padding-left: 10px;
-    padding-top: 6px;
+    padding-left: 0.7vw;
+    padding-top: 0.6vh;
+    font-size: 1.05vw;
 }
 
 .AllegroBookowy {
     background-color: #ce2a29;
     margin-right: var(--box-margin);
-    box-shadow: 3px 3px 1px #363636;
+    box-shadow: 0.4vh 0.4vw 0.1vw #363636;
     display: grid;
 }
 
 .InsideAllegroBookowy {
     background-color: var(--brown);
-    margin: 10px;
-    margin-bottom: 0px;
+    margin: 0.7vw;
+    margin-bottom: 0vh;
     color: white;
     font-weight: 400;
-    padding-left: 10px;
-    padding-top: 6px;
+    padding-left: 0.7vw;
+    padding-top: 0.6vh;
+    font-size: 1.05vw;
 }
 .AllegroLitera {
     background-color: #ce2a29;
     margin-right: var(--box-margin);
-    box-shadow: 3px 3px 1px #363636;
+    box-shadow: 0.4vh 0.4vw 0.1vw #363636;
     display: grid;
 }
 
 .InsideAllegroLitera {
     background-color: var(--brown);
-    margin: 10px;
-    margin-bottom: 0px;
+    margin: 0.7vw;
+    margin-bottom: 0vh;
     color:white;
     font-weight: 400;
-    padding-left: 10px;
-    padding-top:6px;
+    padding-left: 0.7vw;
+    padding-top: 0.6vh;
+    font-size: 1.05vw;
 }
 
 .AllegroOlimpia {
     background-color: #ce2a29;
     margin-right: var(--box-margin);
-    box-shadow: 3px 3px 1px #363636;
+    box-shadow: 0.4vh 0.4vw 0.1vw #363636;
     display: grid;
 }
 
 .InsideAllegroOlimpia {
     background-color: var(--brown);
-    margin: 10px;
-    margin-bottom: 0px;
+    margin: 0.7vw;
+    margin-bottom: 0vh;
     color: white;
     font-weight: 400;
-    font-size: 1vw;
-    padding-left: 10px;
-    padding-top: 6px;
+    font-size: 1.05vw;
+    padding-left: 0.7vw;
+    padding-top: 0.6vh;
 }
 
 .AllegroArtBooks {
     background-color: #ce2a29;
     margin-right: var(--box-margin);
     margin-bottom: var(--box-margin);
-    box-shadow: 3px 3px 1px #363636;
+    box-shadow: 0.4vh 0.4vw 0.1vw #363636;
     display: grid;
 }
 
 .InsideAllegroArtBooks {
     background-color: var(--brown);
-    margin: 10px;
+    margin: 0.7vw;
     color: white;
     font-weight: 400;
-    padding-left: 10px;
-    padding-top: 6px;
+    padding-left: 0.7vw;
+    padding-top: 0.6vh;
+    font-size: 1.05vw;
 }
 
 .BlueBox {
     background-color: white;
     margin-right: var(--box-margin);
     margin-bottom: var(--box-margin);
-    box-shadow: 3px 3px 1px #363636;
+    box-shadow: 0.4vh 0.4vw 0.1vw #363636;
     display: grid;
 }
 
 .InsideBlueBox {
     background-color: var(--blue);
-    margin: 10px;
+    margin: 0.7vw;
 }
 
 .RightMenuUp {
@@ -340,48 +351,51 @@ a:visited {
     background-color: white;
     margin-right: var(--box-margin);
     margin-bottom: var(--box-margin);
-    box-shadow: 3px 3px 1px #363636;
+    box-shadow: 0.4vh 0.4vw 0.1vw #363636;
 }
 
 .StationaryAddress {
     background-color: white;
-    padding-left: 10px;
+    padding-left: 0.7vw;
     margin-right: var(--box-margin);
     margin-bottom: var(--box-margin);
-    box-shadow: 3px 3px 1px #363636;
-    line-height: 0.25em;
+    box-shadow: 0.4vh 0.4vw 0.1vw #363636;
+    line-height: 0.55vh;
+    font-size: 1.05vw;
 }
 
 .Hours {
     background-color: white;
-    padding-left: 10px;
+    padding-left: 0.7vw;
     margin-right: var(--box-margin);
     margin-bottom: var(--box-margin);
-    box-shadow: 3px 3px 1px #363636;
+    box-shadow: 0.4vh 0.4vw 0.1vw #363636;
     line-height: 0.4em;
-    letter-spacing: 3px;
+    letter-spacing: 0.2vw;
+    font-size: 1.05vw;
 }
 
 .HouseVisit {
     background-color: white;
-    padding-left: 10px;
+    padding-left: 0.7vw;
     color: var (--brown);
     margin-right: var(--box-margin);
     margin-bottom: var(--box-margin);
-    box-shadow: 3px 3px 1px #363636;
-    line-height: 0.95em;
+    box-shadow: 0.4vh 0.4vw 0.1vw #363636;
+    line-height: 2vh;
 }
 
 .HouseVisit p {
-    margin-bottom: -10px;
+    margin-bottom: -1.2vh;
+    font-size: 1.05vw;
 }
 
 .FacebookLink {
     background-color: var(--blue);
-    margin: 10px;
+    margin: 0.65vw;
     color: var(--brown);
     font-size: 0.75vw;
-    padding-top: 2px;
+    padding-top: 0.25vh;
     text-align: center;
     font-weight: 600;
 }
