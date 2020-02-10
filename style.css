@@ -2,7 +2,7 @@
     --red: #c80317;
     --brown: #21180f;
     --blue: #8fc8e3;
-    --content-left-text-padding: 1.4vw;
+    --content-left-text-padding: 1vw;
     --box-margin: 0.3vw;
     --s-2-2: -2.2vw;
     --s0-1: 0.1vw;
@@ -13,6 +13,7 @@
     --s0-65: 0.65vw;
     --s0-7: 0.7vw;
     --s0-75: 0.75vw;
+    --s0-9: 0.9vw;
     --s1: 1vw;
     --s1-2: 1.2vw;
     --s2-2: 2.2vw;
@@ -278,7 +279,7 @@ a:visited {
     margin-bottom: 0;
     color: white;
     font-weight: 400;
-    padding-left: var(--s0-7);
+    padding-left: var(--s0-3);
     padding-top: var(--v0-6);
     font-size: var(--s1-05);
 }
@@ -296,7 +297,7 @@ a:visited {
     margin-bottom: 0;
     color: white;
     font-weight: 400;
-    padding-left: var(--s0-7);
+    padding-left: var(--s0-3);
     padding-top: var(--v0-6);
     font-size: var(--s1-05);
 }
@@ -313,7 +314,7 @@ a:visited {
     margin-bottom: 0;
     color:white;
     font-weight: 400;
-    padding-left: var(--s0-7);
+    padding-left: var(--s0-3);
     padding-top: var(--v0-6);
     font-size: var(--s1-05);
 }
@@ -332,7 +333,7 @@ a:visited {
     color: white;
     font-weight: 400;
     font-size: var(--s1-05);
-    padding-left: var(--s0-7);
+    padding-left: var(--s0-3);
     padding-top: var(--v0-6);
 }
 
@@ -349,7 +350,7 @@ a:visited {
     margin: var(--s0-7);
     color: white;
     font-weight: 400;
-    padding-left: var(--s0-7);
+    padding-left: var(--s0-3);
     padding-top: var(--v0-6);
     font-size: var(--s1-05);
 }
@@ -422,11 +423,10 @@ a:visited {
 
 .FacebookLink {
     background-color: var(--blue);
-    margin: var(--s0-75);
+    margin: var(--s0-9);
     color: var(--brown);
     font-size: var(--s0-75);
     padding-top: var(--v0-25);
     padding-left: var(--v0-25);
-    text-align: center;
     font-weight: 600;
 }
