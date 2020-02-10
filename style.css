@@ -58,6 +58,10 @@ img {
     min-height: var(--s12-5);
 }
 
+a.ancor {
+    display:block;
+}
+
 a:link {
     color: var(--brown);
     text-decoration:none;
