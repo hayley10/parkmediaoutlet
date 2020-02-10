@@ -21,9 +21,12 @@
     --s2-5: 2.5vw;
     --s1-4: 1.4vw;
     --s1-05: 1.05vw;
+    --s3-1: 3.1vw;
+    --s4-4: 4.4vw;
     --s12-5: 12.5vw;
     --v-2: -2vh;
     --v-1-2: -1.2vh;
+    --v-1: -1vh;
     --v-0-8: -0.8vh;
     --v-1-5: -1.5vh;
     --v-0-7: -0.7vh;
@@ -31,11 +34,14 @@
     --v0-4: 0.4vh;
     --v0-55: 0.55vh;
     --v0-6: 0.6vh;
+    --v1: 1vh;
+    --v1-5: 1.5vh;
     --v1-6: 1.6vh;
     --v1-8: 1.8vh;
     --v2: 2vh;
     --v3-1: 3.1vh;
     --v3-5: 3.5vh;
+    --v4-5: 4.5vh;
 }
 
 body {
@@ -147,6 +153,12 @@ a:visited {
     font-size: var(--s1-4);
 }
 
+.Address > p:first-child {
+    font-size: var(--s4-4); 
+    margin-bottom: var(--v1); 
+    margin-top: var(--v-1);
+}
+
 .InfoBuild {
     background-color: #525252;
     display: grid;
@@ -168,6 +180,10 @@ a:visited {
     margin-bottom: var(--v-0-8);
     padding-left: var(--s0-7);
     letter-spacing: var(--s0-2);
+}
+
+.InfoTopLeft > p:nth-child(3) {
+    font-size: var(--s0-7);
 }
 
 .InfoTopRight {
@@ -210,6 +226,11 @@ a:visited {
     font-weight: 600;
     letter-spacing: var(--s0-8);
     margin-right: var(--box-margin);
+}
+
+.Description > p:nth-child(4) {
+    font-size: var(--s3-1); 
+    margin-top: var(--v4-5);
 }
 
 .ColorfulBoxes {
@@ -257,6 +278,18 @@ a:visited {
     margin-bottom: var(--box-margin);
     margin-left: var(--box-margin);
     box-shadow: var(--v0-4) var(--s0-4) var(--s0-1) #363636;
+}
+
+.LeftMenuDown > p:first-child {
+    margin-bottom: var(--v-0-8); 
+    margin-top: var(--v1);
+    line-height: var(--v3-1);
+}
+
+.LeftMenuDown > p:nth-child(2) {
+    font-weight:500; 
+    font-size: var(--v3-1); 
+    line-height: var(--v0-25);
 }
 
 .LeftMenuUp {
@@ -404,6 +437,10 @@ a:visited {
     font-size: var(--s1-05);
 }
 
+.SAddressp {
+    font-weight: 600;
+}
+
 .Hours {
     background-color: white;
     padding-left: var(--s0-7);
@@ -413,6 +450,10 @@ a:visited {
     line-height: 0.4em;
     letter-spacing: var(--s0-2);
     font-size: var(--s1-05);
+}
+
+.Hoursp {
+    font-weight: 700;
 }
 
 .HouseVisit {
