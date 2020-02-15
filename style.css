@@ -182,11 +182,21 @@ a:visited {
 }
 
 .Description p {
-    font-size: var(--s2-5);
+    font-size: var(--s2-6);
+    line-height: var(--s2-6);
     margin-bottom: var(--s-2-2);
-    font-weight: 600;
-    letter-spacing: var(--s0-8);
+    font-weight: 700;
+    letter-spacing: var(--s0-7);
     margin-right: var(--box-margin);
+}
+
+#tel-str {
+    margin-top: var(--v7);
+    font-size: var(--s3-5);
+}
+
+#tel-int {
+    letter-spacing: var(--s0-4);
 }
 
 .Description>p:nth-child(4) {
