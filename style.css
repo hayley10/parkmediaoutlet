@@ -19,9 +19,12 @@ br {
 
 img {
     max-height: var(--s12-5);
-    display: block;
     margin: auto;
-    padding-top: var(--v1-6);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     min-height: var(--s12-5);
 }
 
@@ -402,6 +405,7 @@ a:visited {
     margin-right: var(--box-margin);
     margin-bottom: var(--box-margin);
     box-shadow: var(--v0-4) var(--s0-4) var(--s0-1) #363636;
+    position: relative;
 }
 
 .StationaryAddress {
