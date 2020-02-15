@@ -402,15 +402,23 @@ a:visited {
 .StationaryAddress {
     background-color: white;
     padding-left: var(--s0-7);
+    padding-bottom: 100px;
     margin-right: var(--box-margin);
     margin-bottom: var(--box-margin);
     box-shadow: var(--v0-4) var(--s0-4) var(--s0-1) #363636;
     line-height: var(--v0-55);
     font-size: var(--s1-05);
+    position: relative;
 }
 
-.SAddressp {
-    font-weight: 600;
+#stationary-top {
+  position: absolute;
+  top: 0;
+}
+
+#stationary-bottom {
+  position: absolute;
+  bottom: 0;
 }
 
 .Hours {
